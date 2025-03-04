@@ -1,0 +1,13 @@
+footer{
+  padding: 3rem 10rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  color: white;
+  
+
+}
+.text-footer{
+    display: flex;
+    gap: 2rem;
+}

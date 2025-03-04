@@ -1,0 +1,54 @@
+.big-box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 7rem 3rem;
+    border: 3px solid black;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.big-box > h3 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.big-box > p {
+    font-weight: bold;
+    text-align: center;
+    margin: 0;
+}
+
+.big-box > .button {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 5rem;
+    border-radius: 30px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.big-box > .button:hover {
+    background-color: #333;
+}
+
+.contant-bottom {
+    padding-block: 5rem;
+    text-align: center;
+}
+
+.contant-bottom > h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.contant-bottom > p {
+    font-weight: bold;
+    margin: 0;
+}

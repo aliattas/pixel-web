@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+:root {
+  --dark-blue: #102d3b;
+  --hover: #ffb25a;
+  --border: #ece4da;
+  --button: #facb5d;
+  --main: #fff;
+}
+
+body {
+  font-family: 'Noto Kufi Arabic', sans-serif; 
+  
+}
+.box{
+  font-size: 15px;
+  font-weight: 600;
+  border: 1px solid black;
+  width: fit-content;
+  padding: 0.5rem 1.5rem;
+  background-color: white;
+
+}
