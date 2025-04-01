@@ -1,11 +1,11 @@
-import { useState, useEffect } from "react";
-import Heade from "./components/heade";
-import About from "./components/about";
-import Hero from "./components/hero";
-import Footer from "./components/footer"
+import Heade from "./components/Heade";
+import About from "./components/About";
+import Hero from "./components/Hero";
+import Footer from "./components/Footer"
 
 function App() {
 
+  
   return (
     <>
       <Heade />

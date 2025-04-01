@@ -1,5 +1,5 @@
 import "../components/styles/about.css"
-import Box from "./box"
+import Box from "./Box"
 const About = () => {
     return (
       <>

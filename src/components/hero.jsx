@@ -1,10 +1,10 @@
 import "./styles/hero.css"
-import CustomAccordion from "../components/accodion"
-import Box from "./box"
+import CustomAccordion from "./Accodion"
+import Box from "./Box"
 import ImageGallery from "./ImageGallery"
 
 const Hero = () => {
-  const imageList = [
+  const imagesList = [
     "../../images/imgshow1.jpg",
     "../../images/imgshow3.jpg",
     "../../images/imgshow4.jpg",
@@ -17,22 +17,23 @@ const Hero = () => {
   
   
   return (
-    <>      <section className="servise">
-                    <div className="service-col2">
-              <CustomAccordion />
+    <>
+      <section className="service">
+        <div className="service-col2">
+          <CustomAccordion />
+        </div>
+        <div className="service-col1">
+          <h2 className="box">خدماتنا</h2>
+          <div className="text-box">
+            <span>انت تصنع الذكرى</span>
+            <span>نحن نقوم بكل شيء اخر</span>
           </div>
-          <div className="service-col1">
-              <h2 className="box">خدماتنا</h2>
-              <div className="text-box">
-                  <span>انت تصنع الذكرى</span>
-                  <span>نحن نقوم بكل شيء اخر</span>
-              </div>
-              <img src="../../images/nice-camera.jpg" alt="" className="img-handler" loading="lazy
+          <img src="../../images/nice-camera.jpg" alt="" className="img-handler" loading="lazy
               "/>
-              <p>نريدك أن تكون قادرًا على وضع كل طاقتك في الجانب الإبداعي في صناعة الصور. لذلك أنشأنا متجرًا شاملاً لكل شيء آخر.</p>
-              <div className="button">اقراء اكثر</div>
-      </div>
-    </section>
+          <p>نريدك أن تكون قادرًا على وضع كل طاقتك في الجانب الإبداعي في صناعة الصور. لذلك أنشأنا متجرًا شاملاً لكل شيء آخر.</p>
+          <div className="button">اقراء اكثر</div>
+        </div>
+      </section>
       <section >
         <div className="boxs-container">
           <Box
@@ -48,7 +49,7 @@ const Hero = () => {
             text={"سواء كنت فنانًا في تعمل على المنتج, أو معجبًا ولديك أسئلة حول طلبك, فريقنا هنا للمساعدة."}
             color={"#e280ff"}
           />
-          </div>
+        </div>
       </section>
       <section>
         <div className="join">
@@ -58,7 +59,7 @@ const Hero = () => {
           <div className="button">تصفح الفنانين</div>
         </div>
       </section>
-      <ImageGallery images={imageList} />;
+      <ImageGallery images={imagesList} />;
 
       <section className="before-end">
         <div className="contain">
@@ -72,7 +73,7 @@ const Hero = () => {
     </>
    
     
-  )
+  );
 }
 
 export default Hero

@@ -77,3 +77,15 @@
     color: white;
     margin-right: 8rem;
 }
+@media (max-width:1000px){
+    .about{
+      flex-direction: column;
+    }
+    .boxs-container{
+        flex-direction: column;
+        gap: 0;
+    }
+    .boxs-container >.big-box{
+        width: 100%;
+    }
+  }

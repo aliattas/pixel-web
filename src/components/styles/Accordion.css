@@ -52,4 +52,9 @@
   .rotate {
     transform: rotate(180deg);
   }
+  @media (max-width:1100px){
+    .accordion-container{
+      flex-direction: column;
+    }
+  }
   
