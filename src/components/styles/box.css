@@ -37,18 +37,18 @@
     background-color: #333;
 }
 
-.contant-bottom {
+.content-bottom {
     padding-block: 5rem;
     text-align: center;
 }
 
-.contant-bottom > h1 {
+.content-bottom > h1 {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 1rem;
 }
 
-.contant-bottom > p {
+.content-bottom > p {
     font-weight: bold;
     margin: 0;
 }

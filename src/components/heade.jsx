@@ -2,9 +2,9 @@ import "./styles/start.css"
 const Heade = () => {
     return (
         <header className="">
-            <nav className="contant-list">
+            <nav className="content-list">
                 <p className="logo">Pixel</p>
-                <ul className="contant-list">
+                <ul className="content-list">
                     <li>صور جديدة</li>
                     <li>اكتشف</li>
                     <li>للمصورون</li>

@@ -14,7 +14,7 @@ const About = () => {
               <p className="text">إنتاج متكامل للخدمات، شبكة توزيع عالمية، دعم متواصل – واحتفظ بما يصل إلى 85٪ من الأرباح.</p>
           </section>
    </div>
-       <div className="contant arabic-text">
+       <div className="content arabic-text">
                 <h2>حدد زاويتك وأسلوبك المثالي من عدة خيارات احترافية.</h2>
                 <div className="boxs-container">
                     <Box
@@ -33,7 +33,7 @@ const About = () => {
 
                 />
                 </div>
-                <div className="contant-bottom">
+                <div className="content-bottom">
                     <h1>اختار الانسب لك </h1>
                     <p>اختر أفضل نوع مشروع بيكسل ليناسب احتياجاتك ↓</p>
                 </div>
@@ -55,7 +55,7 @@ const About = () => {
                         src={"../../images/cutcamera3.png"}
                     />
                 </div>
-                <div className="end-contant">
+                <div className="end-content">
                     <p>تبحث عن حفظ أعمالك على شرائط  او المزيد من نسخ أشرطة التصوير نحن نفعل ذلك أيضًا. أخبرنا بالمكان وسنقوم بشحنها بكميات كبيرة إلى أي مكان تريده </p>
                     <p><a href="#">أبداء مشروعك التصويري الان</a></p>
                 </div>
